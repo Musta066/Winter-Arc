@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winter Arc</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Winter Arc</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#evolucao">Evolução</a></li>
+                <li><a href="#nutricao">Dicas de Nutrição</a></li>
+                <li><a href="#exercicios">Planos de Exercícios</a></li>
+                <li><a href="#estoicismo">Frases Estoicas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bem-vindo ao Winter Arc</h2>
+        <p>Aqui, evoluímos juntos. Partilhe seu progresso, encontre motivação no estoicismo e siga planos de nutrição e exercícios feitos para sua jornada.</p>
+        <blockquote>"A adversidade é o primeiro caminho para a verdade." – Sêneca</blockquote>
+    </section>
+
+    <section id="evolucao">
+        <h2>Partilhe sua Evolução</h2>
+        <p>Conte-nos sua história e inspire outras pessoas.</p>
+        <!-- Aqui, pode haver uma futura integração de comentários ou postagens -->
+    </section>
+
+    <section id="nutricao">
+        <h2>Dicas de Nutrição</h2>
+        <ul>
+            <li>Mantenha uma dieta rica em proteínas e vegetais.</li>
+            <li>Hidrate-se adequadamente todos os dias.</li>
+            <li>Evite alimentos processados e açúcares refinados.</li>
+        </ul>
+    </section>
+
+    <section id="exercicios">
+        <h2>Planos de Exercícios</h2>
+        <div class="exercise-plan">
+            <h3>Segunda-feira</h3>
+            <p>Treino de força: agachamentos, levantamento terra e flexões.</p>
+        </div>
+        <div class="exercise-plan">
+            <h3>Terça-feira</h3>
+            <p>Cardio: corrida de 5km ou 30 minutos de bicicleta.</p>
+        </div>
+        <!-- Adicionar mais dias -->
+    </section>
+
+    <section id="estoicismo">
+        <h2>Frases Estoicas</h2>
+        <blockquote>"O que não te destrói, te fortalece." – Marco Aurélio</blockquote>
+        <blockquote>"A felicidade da sua vida depende da qualidade dos seus pensamentos." – Marco Aurélio</blockquote>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="#">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Winter Arc. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
